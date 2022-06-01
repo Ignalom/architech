@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@0;1&family=Montserrat:ital,wght@0,200;1,100&family=Poppins:ital,wght@0,100;1,100&family=Roboto:wght@100&family=Square+Peg&family=Tapestry&display=swap');
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+font-family: 'Montserrat', sans-serif;
+}
+
+header{
+width: 100vw;
+height: 50px;
+background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: flex-end;
+}
+  
+
+.listanav{ width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    gap: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 3px;
+    
+
+}
+
+
+.listanav li:hover{ 
+    border-bottom: 3px solid rgb(242, 250, 212);
+    height: 100%;
+    transform: scale(1.1);
+
+}
+
+.listanav li a{list-style: none;
+text-decoration: none;
+color: black;}
+
+.listanav li a:hover{color: beige;}
+
+
+
+.logo {width: auto;
+    display: flex; 
+    width: 100vw;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FFFFFF, #FFEFBA);
+    
+    border-top: 2px solid lightslategray ;
+    border-bottom: 2px solid lightslategray;
+    border-style: double;
+    border-left: transparent;
+    border-right: transparent;
+    border-width: 3px;
+    padding-top: 3px;
+    
+}
+
+.logoimg {width: auto;
+align-items: center; 
+
+}
+
+.imagen{border-radius: 20px;}
+
+.carrouselcarrousel{width: 100vw;
+    height: 800px;
+    border-top: 2px solid lightslategray ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+
+}
+
+
+
+
+.carrouselgrande {
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2c3e50, #bdc3c7 30%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 35px;
+    width: 95%;
+    height: 90%;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  
+}   
+
+.carrousel { flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    position: relative;
+}
+    
+   
+
+
+
+.imagenes{ min-width: 200px;
+    max-width: 800px;
+    max-height: 320px;
+    min-height: 80px;
+    border-radius: 50px;
+    padding: 20px;
+    flex: 1 1 600px;
+    cursor: pointer;
+    
+}
+
+.imagenes:hover {transform: scale(1.25);}
+
+.puntos{display: flex;
+width: 150px;    
+height: 20px;
+justify-content: center;
+position: relative;
+gap: 10px;
+background-color: inherit;
+border-radius: 30px;
+}
+
+.punto{
+height: 5px;    
+width: 30px;
+color: black;
+}
+
+main{ width: 100vw;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FFFFFF, #FFEFBA);
+
+}
+
+.nosotros-contenedor {
+width: 90%;    
+height: 95%;
+display: flex;
+gap: 30px;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+
+
+}
+.nosotros{ width: 90%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+    
+}
+
+
+h1 {padding: 20px;  
+text-align: center;
+font-size: clamp(30px, 40px, 50px);
+}
+
+p {
+    min-width: 380px;
+    padding-top: 30px;
+    font-family: 'Libre Bodoni', serif;
+    color: black;
+    font-weight: bold;
+    font-size: clamp(10px, 20px, 30px);
+}
+
+
+.nosotrosimg { 
+    width: 75%;
+    display: flex;
+    cursor: pointer;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.nosotrosimg img {min-width: 400px;
+    max-width: 1000px;
+    min-height: 300px;
+    
+}
+
+.nosotrosimg:hover{transform: scale(1.15);}
+
+footer{width: 100vw; height: 250px; background: #bdc3c7;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to bottom, #2c3e50, #bdc3c7);
+    display: flex;
+    align-items: center;}
+
+.contenedor-footer{
+    width: 90%;
+    justify-content: space-around;
+    display: flex;
+    height: 80%;
+    align-items:center;
+  
+}
+
+.imagen-logo-footer img{ border-radius: 35px;
+    padding: 10px;
+}
+
+.contenedor-redes{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+
+align-items: center;
+text-align: center;}
+    
+.contenedor-redes h2 {
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: beige;
+}
+
+.contenedor-redes p {color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+.insta {
+    padding-top: 30px;}
+    
+.contenedor-redes a i{
+        width: max-content;
+        font-size: 70px;
+        color: #e1306c;
+       
+}
+.contenedor-redes a i:hover{transform: scale(1.5);}
+
+.wp {position: fixed;
+    bottom: 3vh;
+    right: 3vh;
+    background-color: rgb(37, 211, 102);
+    color: #FFFFFF;
+    border-radius: 50%;
+    height: 90px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+
+.wp a{
+    color: white;}
+
+.wp:hover {transform: scale(1.2);
+transition: 1s;}
+
+
+@media screen and (max-width: 1600px){
+
+    .nosotros-contenedor{flex-wrap: wrap;}   
+
+}
